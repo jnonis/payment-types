@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_vertical"
+              android:orientation="horizontal"
+              android:padding="@dimen/list_item_padding">
+
+    <com.example.paymenttypes.ui.widget.LoadingImageView
+        android:id="@+id/payment_item_thumbnail"
+        android:layout_width="@dimen/thumbnail_size"
+        android:layout_height="@dimen/thumbnail_size"
+        android:layout_marginRight="@dimen/list_item_padding"/>
+
+    <TextView
+        android:id="@+id/payment_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:textColor="@color/black_87"
+        android:textSize="18sp"/>
+
+</LinearLayout>
